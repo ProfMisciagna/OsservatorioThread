@@ -1,0 +1,44 @@
+#   Un gruppo di 10 persone è all’osservatorio astronomico per ammirare il passaggio 
+    di una cometa sfruttando il potente telescopio messo a disposizione dalla struttura. 
+#   Solo una persona alla volta può usare il telescopio, e i responsabili concedono solo tre
+    minuti a persona per completare l’osservazione. 
+#   Non esiste una fila, i partecipanti accederanno al telescopio in maniera casuale. 
+#   Ogni partecipante quindi attraverserà degli stati:
+    #   lo stato “In attesa” quando starà aspettando il suo turno. 
+        Dura un tempo indefinito, che dipende da quando inizierà il turno del partecipante;
+    #   lo stato “Osservazione” quando starà osservando la cometa tramite il telescopio. 
+        Dura esattamente 3 minuti (ma è possibile abbreviare questo tempo per eseguire l’esercizio);
+    #   lo stato “Finito” quando il turno è finito.
+#   Gli stati possono essere caratterizzati da delle stampe significative.
+
+l'output potrà sarà il seguente:
+Ciro dice: "Sono in attesa..."
+Gianluca dice: "Sono in attesa..."
+Pierluigi dice: "Sono in attesa..."
+Gigi dice: "Sono in attesa..."
+Nicola dice: "Sono in attesa..."
+Pino dice: "Sono in attesa..."
+Maurizio dice: "Sono in attesa..."
+Raffaele dice: "Sono in attesa..."
+Fabio dice: "Sono in attesa..."
+Vincenzo dice: "Sono in attesa..."
+Ciro dice: "Tocca a me... che meraviglia!"
+Ciro dice: "Ho finito."
+Vincenzo dice: "Tocca a me... che meraviglia!"
+Vincenzo dice: "Ho finito."
+Fabio dice: "Tocca a me... che meraviglia!"
+Fabio dice: "Ho finito."
+Raffaele dice: "Tocca a me... che meraviglia!"
+Raffaele dice: "Ho finito."
+Maurizio dice: "Tocca a me... che meraviglia!"
+Maurizio dice: "Ho finito."
+Pino dice: "Tocca a me... che meraviglia!"
+Pino dice: "Ho finito."
+Nicola dice: "Tocca a me... che meraviglia!"
+Nicola dice: "Ho finito."
+Gigi dice: "Tocca a me... che meraviglia!"
+Gigi dice: "Ho finito."
+Pierluigi dice: "Tocca a me... che meraviglia!"
+Pierluigi dice: "Ho finito."
+Gianluca dice: "Tocca a me... che meraviglia!"
+Gianluca dice: "Ho finito."
